@@ -1,3 +1,5 @@
+package Two_pointers;
+
 import java.util.Arrays;
 
 public class Minimize_Maximum_pair_sum_in_an_array {
