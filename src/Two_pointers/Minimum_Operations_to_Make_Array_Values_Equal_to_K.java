@@ -1,9 +1,10 @@
-import java.util.HashSet;
 package Two_pointers;
+
+import java.util.HashSet;
 
 public class Minimum_Operations_to_Make_Array_Values_Equal_to_K {
     public int minOperations(int[] nums, int k) {
-        // Base case:- if array contains an integer less than k than return -1
+        // Base case: if array contains an integer less than k then return -1
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] < k) {
